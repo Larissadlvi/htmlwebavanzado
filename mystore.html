@@ -1,0 +1,144 @@
+<!--Exercise #2
+Create a page called My Store. It should have a table with 3 columns (Item, Name, and Price). See the data below and build your table:-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Store</title>
+    <style>
+        table,
+        td {
+            border: 2px solid rgb(8, 8, 8);
+        }
+        
+        thead{
+            background-color: rgb(47, 184, 189);
+            color: rgb(252, 252, 252);
+        }
+        </style>
+</head>
+<body>
+    <a href="#Family" title="learn about me">Learn about my family</a>
+    <br><br><br>
+    <h1><center>My store</center></h1>
+    <table>
+        <tr>
+        <th>Item</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Photo</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Orange</td>
+            <td>$1 each</td>
+            <td><img src="https://i0.wp.com/historiasdelahistoria.com/wordpress-2.3.1-ES-0.1-FULL/wp-content/uploads/2015/11/naranja.jpg?ssl=1"width="40" height="40" /></td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>Bananas</td>
+            <td>$0.75</td>
+            <td><img src="https://www.smartnfinal.com.mx/wp-content/uploads/2017/09/smart-99555-platano-portalimon.jpg"width="40" height="40" /></td>
+        </tr>
+        <tr>
+            <td>003</td>
+            <td>Pomegranates</td>
+            <td>3 for $5</td>
+            <td><img src="https://www.collinsdictionary.com/images/full/pomegranate_121524892.jpg"width="40" height="40" /></td>
+        </tr>
+        <tr>
+            <td>004</td>
+            <td>Gummy Bears</td>
+            <td>$6 per bag</td>
+            <td><img src="https://m.media-amazon.com/images/I/91745c3+LFL._SL1500_.jpg"width="40" height="40" /></td>
+        </tr>
+        <tr>
+            <td>005</td>
+            <td>Broccoli</td>
+            <td>$3 a head</td>
+            <td><img src="https://s.cornershopapp.com/product-images/3585780.jpg?versionId=kWGh42wbDUYwYLer2U8y.D9wOVIULT1p"width="40" height="40" /></td>
+        </tr>
+    </table>
+    
+    <br><br><br>
+
+<!--Exercise #3
+Part 1: Make a simple page and put two text inputs and a Submit button into it. Ask for the user's name and address.
+Part 2: Ask for a few more things: first name, last name, address, city, country. Arrange things neatly in a borderless table.-->
+    <input type="text" value="Nombre de usuario" />
+    <input type="text" value="Correo de usuario" />
+    <form>
+        <input type ="submit"/>
+    </form>
+    
+<br><br>
+<!--Parte dos-->
+    <table>
+        <tr>
+        <th><input type="text" value="Primer nombre" /></th>
+        </tr>
+    <tr><td><input type="text" value="Apellido" /></td></tr>
+    <tr><th><input type="text" value="Dirección" /></tr></th>
+    <tr><td><input type="text" value="Ciudad" /></tr></td>
+    <tr><td><input type="text" value="País" /></tr></td>
+    </table>
+    <form>
+
+        <input type ="submit"/>
+    </form>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <!--Exercise #4
+Open up the exercise you did in INTRO-WEB-2 Exercise #5.
+At the bottom of the page, add in a table about your family members. The columns should be:
+Name
+Gender
+Age
+Relationship
+Add a link in the page that will take you to the family table.-->
+    <br><br><br><br>
+    <a id="Family"></a><h1>Learn about my family</h1>
+    <table>
+        <tr>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Age</th>
+        <th>Relationship</th>
+        </tr>
+        <tr>
+            <td>Guillermo</td>
+            <td>Male</td>
+            <td>62</td>
+            <td>Father</td>
+        </tr>
+        <tr>
+            <td>Gina</td>
+            <td>Female</td>
+            <td>59</td>
+            <td>Mother</td>
+        </tr>
+        <tr>
+            <td>Diego</td>
+            <td>Male</td>
+            <td>31</td>
+            <td>Sibling</td>
+        </tr>
+        <tr>
+            <td>Juan Pablo</td>
+            <td>Male</td>
+            <td>29</td>
+            <td>Sibling</td>
+        </tr>
+        <tr>
+            <td>Larissa</td>
+            <td>Female</td>
+            <td>25</td>
+            <td>Me!</td>
+        </tr>
+    </table>
+
+</body>
+</html>
